@@ -1,0 +1,47 @@
+@import 'styles/variables.scss';
+@import 'styles/mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $mainFont;
+  font-weight: normal;
+  font-size: 16px;
+  color: $black;
+  background: $white;
+}
+
+.App {
+  @include container;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondFont;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  box-shadow: none;
+  outline: none;
+  color: $white;
+  font-family: $mainFont;
+  line-height: 1.2;
+}
