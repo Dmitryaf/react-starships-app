@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.item {
+  width: 100%;
+  max-width: 310px;
+  background-color: $white;
+  border: 3px solid $gray;
+  margin: 0 10px 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+
+
+  &:hover {
+    border-color: $green;
+  }
+
+  &__title {
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: 3px solid $green;
+  }
+
+  &__row {
+    margin-bottom: 10px;
+  }
+}
