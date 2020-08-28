@@ -53,3 +53,16 @@ button {
   font-family: $mainFont;
   line-height: 1.2;
 }
+
+.red-text {
+  color: $red;
+}
+
+.green-text {
+  color: $green-light;
+}
+
+.difference {
+  font-weight: 500;
+  margin-left: 10px;
+}
