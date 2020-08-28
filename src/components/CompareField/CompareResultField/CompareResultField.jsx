@@ -40,6 +40,9 @@ const CompareResultField = (props) => {
 
       case paramNumber1 === paramNumber2:
         return <span>&nbsp;Значения равны</span>;
+
+      default:
+        return;
     }
   }
 
