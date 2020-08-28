@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+
+  @media (max-width: 1020px) {
+    justify-content: space-around;
+  }
+}
